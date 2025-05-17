@@ -25,37 +25,66 @@ a:hover {
   font-size: 14px;
 }
 
+/* --- CONTACT ICON STYLES --- */
 .contact-links a {
   margin-right: 20px;
+  font-size: 18px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.contact-links a:hover {
+  color: #d4af37;
 }
 
 .hero {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 60px 80px;
-  flex-wrap: wrap;
-}
-
-.hero-text .intro-text {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  margin: 0;
-  color: #666;
-}
-
-.hero-text .main-name {
-  font-family: 'WindSong', serif;
-  font-size: 64px;
-  margin: 10px 0;
-  font-weight: 700;
+  position: relative;
+  height: 100vh;
+  padding: 0;
+  overflow: hidden;
 }
 
 .hero-image img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
-  border-radius: 10px;
+  display: block;
+  filter: brightness(70%);
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: linear-gradient(to bottom, transparent, #ffffff);
+  z-index: 1;
+}
+
+.hero-text {
+  position: absolute;
+  top: 40%;
+  left: 8%;
+  transform: translateY(-50%);
+  z-index: 2;
+  color: white;
+  max-width: 600px;
+}
+
+.hero-text .intro-text {
+  font-size: 24px;
+  color: #f0f0f0;
+  margin: 0;
+}
+
+.hero-text .main-name {
+  font-size: 72px;
+  color: #fff;
+  margin: 10px 0;
+  font-weight: 700;
+  font-family: 'WindSong', serif;
 }
 
 
