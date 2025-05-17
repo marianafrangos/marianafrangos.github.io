@@ -45,7 +45,7 @@ a:hover {
 }
 
 .hero-text .main-name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'WindSong', serif;
   font-size: 64px;
   margin: 10px 0;
   font-weight: 700;
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .nav-ribbon .initials {
-  font-family: 'Playfair Display', serif;
+  font-family: 'WindSong', serif;
   font-size: 24px;
   font-weight: 700;
 }
@@ -111,13 +111,13 @@ footer {
 }
 
 .footer-name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'WindSong', serif;
   font-size: 32px;
   font-weight: 700;
 }
 
 .footer-initials {
-  font-family: 'Playfair Display', serif;
+  font-family: 'WindSong', serif;
   font-size: 28px;
   font-weight: 700;
 }
