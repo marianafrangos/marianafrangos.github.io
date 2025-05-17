@@ -1,0 +1,49 @@
+// === style.css ===
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-bottom: 1px solid #eee;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.centered-initials {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.centered-initials h1 {
+  font-size: 5rem;
+  letter-spacing: 5px;
+  color: #444;
+  transition: opacity 0.3s ease;
+}
+
+.page {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
