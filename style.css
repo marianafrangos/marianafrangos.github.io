@@ -127,6 +127,7 @@ footer {
   background-color: #253052;
   padding: 40px;
   font-size: 24px;
+  color: #ffffff;
 }
 
 .footer-content {
@@ -163,6 +164,7 @@ footer {
 
 .footer-browse li {
   margin: 5px 0;
+  color: #ffffff;
 }
 
 .footer-bottom {
