@@ -163,3 +163,67 @@ footer {
   margin-top: 40px;
   color: #ffffff;
 }
+
+@media (max-width: 768px) {
+  /* Stack hero section vertically */
+  .hero {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .hero-text {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .hero-text .intro-text {
+    font-size: 24px;
+  }
+
+  .hero-text .main-name {
+    font-size: 60px;
+  }
+
+  .hero-image {
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+
+  .nav-ribbon {
+    font-size: 18px;
+  }
+
+  .nav-ribbon .initials {
+    font-size: 40px;
+  }
+
+  .blurb {
+    font-size: 20px;
+    padding: 30px 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-name {
+    font-size: 60px;
+  }
+
+  .footer-browse h4 {
+    font-size: 40px;
+  }
+
+  footer {
+    font-size: 16px;
+  }
+}
+
