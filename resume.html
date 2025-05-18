@@ -1,2 +1,57 @@
-// === resume.html ===
-<!-- Option to embed a resume PDF or link -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume - Mariana Frangos</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=WindSong&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation Ribbon -->
+  <nav class="nav-ribbon">
+    <a href="about.html">ABOUT</a>
+    <a href="career.html">CAREER</a>
+    <a href="projects.html">PROJECTS</a>
+    <a href="index.html" class="initials" aria-label="Home">M F</a>
+    <a href="hobbies.html">HOBBIES</a>
+    <a href="resume.html">RESUME</a>
+    <a href="contact.html">CONTACT</a>
+  </nav>
+
+  <!-- Main Resume Section -->
+  <main style="padding: 40px; max-width: 900px; margin: 0 auto;">
+    <h2>My Resume</h2>
+    <!-- Embed the resume PDF so users can view it -->
+    <embed src="MarianaIFrangosResume.pdf" type="application/pdf" width="100%" height="800px" />
+    
+    <!-- Download link for convenience -->
+    <p style="margin-top: 20px;">
+      <a href="MarianaIFrangosResume.pdf" download>
+        Download my resume (PDF)
+      </a>
+    </p>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-name">Mariana <br>Frangos</div>
+      <div class="footer-browse">
+        <h4>Browse</h4>
+        <ul>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="career.html">CAREER</a></li>
+          <li><a href="projects.html">PROJECTS</a></li>
+          <li><a href="hobbies.html">HOBBIES</a></li>
+          <li><a href="resume.html">RESUME</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2025 Mariana Frangos. All Rights Reserved.</div>
+  </footer>
+</body>
+</html>
