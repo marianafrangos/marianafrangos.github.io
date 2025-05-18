@@ -9,6 +9,9 @@ import Hobbies from "./Hobbies";
 import Career from "./Career";
 import Projects from "./Projects";
 
+<Link to="/contact" className="...">Contact</Link>
+
+
 function App() {
   return (
     <Router>
