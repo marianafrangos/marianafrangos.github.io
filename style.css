@@ -130,6 +130,11 @@ footer {
   color: #ffffff;
 }
 
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
 .footer-content {
   display: flex;
   flex-direction: row;
