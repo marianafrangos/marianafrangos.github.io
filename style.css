@@ -166,6 +166,20 @@ footer {
   color: #ffffff;
 }
 
+/* About paragraph styling */
+.about-section {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 22px;
+  color: #253052;
+}
+
+.nav-ribbon .initials {
+  white-space: nowrap;
+}
+
 @media (max-width: 768px) {
   /* Stack hero section vertically */
   .hero {
