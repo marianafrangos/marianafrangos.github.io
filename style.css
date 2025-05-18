@@ -124,11 +124,11 @@ a:hover {
 }
 
 footer {
-  background-color: #f6f5f0;
-  color: #253052;
+  background-color: #253052;
+  color: #ffffff;
   padding: 40px 20px 20px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 24px;
   text-align: center;
 }
 
@@ -137,17 +137,18 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  gap: 80px;
+  gap: 180px;
   flex-wrap: wrap;
   max-width: 800px;
   margin: 0 auto;
 }
 
 .footer-name {
-  font-family: 'WindSong', cursive;
-  font-size: 32px;
+  font-family: 'WindSong', serif;
+  font-size: 90px;
   line-height: 1.2;
-  color: #253052;
+  font-weight: 800;
+  color: #ffffff;
 }
 
 .footer-browse {
@@ -155,15 +156,18 @@ footer {
 }
 
 .footer-browse h4 {
+  font-family: 'WindSong', serif
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 60px;
   font-weight: 600;
+  color: #ffffff;
 }
 
 .footer-browse ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  color: #ffffff;
 }
 
 .footer-browse li {
@@ -171,14 +175,14 @@ footer {
 }
 
 .footer-browse a {
-  color: #253052;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .footer-bottom {
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 14px;
-  color: #666;
+  color: #ffffff;
 }
 
 
