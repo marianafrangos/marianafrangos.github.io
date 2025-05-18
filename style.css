@@ -65,6 +65,7 @@ a:hover {
   font-family: 'WindSong', serif;
   font-size: 84px;
   font-weight: 700;
+  line-height: .8
 }
 
 /* Right side: image container */
@@ -89,7 +90,7 @@ a:hover {
 
 
 .nav-ribbon {
-  background-color: #f7f7f7;
+  background-color: #253052;
   padding: 20px 0;
   text-align: center;
   font-weight: 600;
@@ -101,13 +102,13 @@ a:hover {
 .nav-ribbon a,
 .nav-ribbon .initials {
   margin: 0 20px;
-  color: #333;
+  color: #ffffff;
 }
 
 .nav-ribbon .initials {
   font-family: 'WindSong', serif;
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 34px;
+  font-weight: 900;
 }
 
 .blurb {
