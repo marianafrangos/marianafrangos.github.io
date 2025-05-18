@@ -54,6 +54,19 @@ a:hover {
   justify-content: center;
 }
 
+/* Keep your existing styles for text size */
+.hero-text .intro-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  color: #666;
+}
+
+.hero-text .main-name {
+  font-family: 'WindSong', serif;
+  font-size: 84px;
+  font-weight: 700;
+}
+
 /* Right side: image container */
 .hero-image {
   flex: 1;
