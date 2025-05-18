@@ -179,29 +179,53 @@ footer a {
   color: #ffffff;
 }
 
+/* contact page stuff */
+.contact-container {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: white; /* light background */
+  border-radius: 12px;
+  color: #253052; /* dark text */
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.contact-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #253052;
+}
+
 form {
-  max-width: 500px;
-  margin: 2rem auto;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
+  text-align: left;
 }
 
 label {
   font-weight: 600;
+  margin-top: 0.5rem;
+  color: #253052;
 }
 
 input,
 textarea {
   padding: 0.75rem;
-  border: 1px solid #ccc;
   border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #ccc;
   font-size: 1rem;
-  background-color: white;
+  font-family: 'Montserrat', sans-serif;
   color: #253052;
+  background-color: #f8f8f8;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #f5416b;
+  background-color: #fff;
 }
 
 button[type="submit"] {
@@ -214,29 +238,30 @@ button[type="submit"] {
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  align-self: center;
 }
 
 button[type="submit"]:hover {
   background-color: #f5416b;
-  color: white;
 }
 
-/* Contact Links */
 .contact-links-contact {
-  text-align: center;
   margin-top: 2rem;
   font-size: 1.1rem;
+  text-align: center;
+  color: #253052;
 }
 
 .contact-links-contact a {
-  color: #f5416b;
+  color: #253052;
+  text-decoration: underline;
   font-weight: 600;
-  text-decoration: none;
 }
 
 .contact-links-contact a:hover {
-  text-decoration: underline;
+  color: #f5416b;
 }
+
 
 
 @media (max-width: 768px) {
