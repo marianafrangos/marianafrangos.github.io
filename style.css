@@ -104,6 +104,7 @@ a:hover {
 .nav-ribbon a,
 .nav-ribbon .initials {
   margin: 0 20px;
+  white-space: nowrap;
   color: #ffffff;
 }
 
