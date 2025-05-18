@@ -40,52 +40,38 @@ a:hover {
 .hero {
   display: flex;
   height: 100vh;
-  width: 100%;
-  background-color: white;
   overflow: hidden;
 }
 
+/* Left side: text */
 .hero-text {
   flex: 1;
+  padding: 80px;
+  z-index: 2;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 60px 80px;
-  background-color: white;
-  z-index: 2;
 }
 
-.hero-text .intro-text {
-  font-size: 20px;
-  color: #666;
-  margin: 0;
-}
-
-.hero-text .main-name {
-  font-family: 'WindSong', serif;
-  font-size: 64px;
-  font-weight: 700;
-  margin: 10px 0 0;
-  color: #333;
-}
-
+/* Right side: image container */
 .hero-image {
   flex: 1;
   position: relative;
   height: 100%;
+  display: flex;
+  justify-content: flex-end; /* ensures the image aligns right */
+  align-items: center;
+  overflow: hidden;
 }
 
+/* Image fills the container and fades to the left */
 .hero-image img {
-  position: absolute;
-  right: 0;
-  top: 0;
   height: 100%;
-  width: 100%;
+  width: auto;
   object-fit: cover;
-
-  /* fade effect */
-  mask-image: linear-gradient(to left, black 60%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to left, black 60%, transparent 100%);
+  mask-image: linear-gradient(to left, black 70%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to left, black 70%, transparent 100%);
 }
 
 
