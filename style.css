@@ -125,40 +125,27 @@ a:hover {
 
 footer {
   background-color: #253052;
-  color: #ffffff;
-  padding: 40px 20px 20px;
-  font-family: 'Montserrat', sans-serif;
+  padding: 40px;
   font-size: 24px;
-  text-align: center;
 }
 
 .footer-content {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 180px;
+  justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 800px;
-  margin: 0 auto;
 }
 
 .footer-name {
   font-family: 'WindSong', serif;
   font-size: 90px;
-  line-height: 1.2;
   font-weight: 800;
   color: #ffffff;
 }
 
-.footer-browse {
-  text-align: left;
-}
-
 .footer-browse h4 {
-  font-family: 'WindSong', serif
-  margin-bottom: 10px;
+  font-family: 'WindSong', serif;
   font-size: 60px;
+  margin-bottom: 10px;
   font-weight: 600;
   color: #ffffff;
 }
@@ -166,38 +153,17 @@ footer {
 .footer-browse ul {
   list-style: none;
   padding: 0;
-  margin: 0;
   color: #ffffff;
 }
 
 .footer-browse li {
-  margin-bottom: 6px;
-}
-
-.footer-browse a {
-  color: #ffffff;
-  text-decoration: none;
+  margin: 5px 0;
 }
 
 .footer-bottom {
-  margin-top: 20px;
-  font-size: 14px;
-  color: #ffffff;
-}
-
-
-/* About paragraph styling */
-.about-section {
-  max-width: 800px;
-  margin: 80px auto;
-  padding: 0 20px;
   text-align: center;
-  font-size: 22px;
-  color: #253052;
-}
-
-.nav-ribbon .initials {
-  white-space: nowrap;
+  margin-top: 40px;
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -262,4 +228,3 @@ footer {
     font-size: 16px;
   }
 }
-
