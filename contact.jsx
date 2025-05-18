@@ -1,5 +1,26 @@
 import Navbar from './Navbar'; // adjust path as needed
 import Footer from './Footer';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import About from "./About";
+import Contact from "./Contact";
+import Resume from "./Resume";
+import Hobbies from "./Hobbies";
+import Career from "./Career";
+import Projects from "./Projects";
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} /> {/* This is key */}
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
+    </Router>
+  );
+}
 
 export default function Contact() {
   return (
