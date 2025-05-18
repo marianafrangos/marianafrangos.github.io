@@ -179,6 +179,15 @@ footer a {
   color: #ffffff;
 }
 
+/* resume page stuff */
+.resume-title {
+  font-family: 'WindSong', cursive;
+  font-size: 3rem;
+  color: #253052;
+  text-align: center;
+  margin-top: 2rem;
+}
+
 /* contact page stuff */
 .contact-title {
   font-family: 'WindSong', cursive;
