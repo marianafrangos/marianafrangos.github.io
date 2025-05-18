@@ -137,7 +137,7 @@ footer {
   font-family: 'WindSong', serif;
   font-size: 90px;
   font-weight: 800;
-  font-color: #ffffff;
+  color: #ffffff;
 }
 
 .footer-browse h4 {
@@ -145,13 +145,13 @@ footer {
   font-size: 60px;
   margin-bottom: 10px;
   font-weight: 600;
-  font-color: #ffffff;
+  color: #ffffff;
 }
 
 .footer-browse ul {
   list-style: none;
   padding: 0;
-  font-color: #ffffff;
+  color: #ffffff;
 }
 
 .footer-browse li {
@@ -196,11 +196,11 @@ footer {
   }
 
   .nav-ribbon {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .nav-ribbon .initials {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .blurb {
